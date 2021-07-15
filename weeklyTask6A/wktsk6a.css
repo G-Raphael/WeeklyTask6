@@ -1,0 +1,113 @@
+.iconimage{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.mystyle{
+    color: white !important;
+    font-weight: 400px !important;
+    font-size: 20px;
+}
+.btn{
+    border: 2px solid white !important;
+    color: white !important;
+}
+.headere{
+    background-image: url('./Images/webGallery.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+
+}
+.combinedCont{
+    padding: 20px;
+}
+.csrCont,.priceCont,.serviceCont{
+    text-align: justify;
+    border: 5px solid blue;
+    color: white;
+    margin: 10PX;
+    background-color: hsl(256, 26%, 20%);
+}
+.headertxt, h3{
+    padding-top: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 42px;
+    }
+    .carouseldiv{
+        width: 950px;
+        height: 730px;
+        margin: 220px 0px 0px 250px;
+        border: 20px solid rgb(141, 88, 53);
+       
+        
+    }
+    .carouselInd{
+        background-color: blue;
+       display: inline-flex; 
+    width: 120px;   }
+    .caru3 {
+        margin-top: 20px;
+        color: blue;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 28px;
+        }
+        .maincont{
+            width: 100%;
+            height: 350px;
+        }
+
+        /* footer*/
+        .last-container{
+            background-image: url('./Images/bg-pattern-footer-desktop.svg');
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-size: 30%;
+            width: 98%;
+            height: 250px;
+            margin-top: 100px;
+        
+        }
+
+        .last-cont-footer{
+            display: flex;
+            text-transform: uppercase;
+            margin-top: -50px;
+            margin-left: 20px;
+        }
+        .last-cont-footer li{
+            list-style: none;
+            padding: 5px 0px 5px 0px;
+            font-size: 16px;
+            color:hsl(270, 9%, 17%);
+            font-family: 'Karla', sans-serif;
+            font-weight: bolder;
+        }
+        .last-cont-footer ul li:first-child{
+            font-weight: lighter;
+            padding: 20px 0px 20px 0px;
+            
+            }
+            .footer-1,.footer-2,.footer-3,.footer-4{
+                padding-right: 140px;
+            }
+
+            .last-cont-footer li a{
+                text-decoration: none;
+                color: hsl(270, 9%, 17%);
+            }
+            .social-media li{
+                list-style: none;
+                text-transform: uppercase;
+                font-size: 16px;
+                color: hsl(256, 26%, 20%);
+                display:inline;
+                justify-items: self-end;
+                padding: 0px 10px; 
+            }
+            
+    
